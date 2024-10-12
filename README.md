@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# CV-Builder-PDF-Generator
+A React-based CV Builder with PDF generation functionality using html2pdf.js. Users can input their personal details, add work experience, education, skills, and download their customized CV in PDF format with a single click.
+>>>>>>> cf454cf2ee57659092c77c6b868e920de2f825da
