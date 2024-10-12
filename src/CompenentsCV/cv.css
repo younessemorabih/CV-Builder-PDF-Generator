@@ -1,0 +1,123 @@
+
+.container{
+    display: flex;
+}
+.container img{
+    background-size: cover;
+    width: 100%;
+}
+.img{
+    flex: 1;
+}
+.formulaireCV{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    
+}
+.formulaireCV h1{
+    text-align: center;
+}
+.formulaireCV .info{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.formulaireCV .info label{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+}
+.formulaireCV .info input{
+    height: 40px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    font-size: 17px;
+    transform: translate(-50%);
+}
+.formulaireCV .info textarea{
+    height: 60px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    font-size: 17px;
+    transform: translate(-50%);
+}
+.formulaireCV .link{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    align-items: center;
+}
+.navbar span{
+    margin-left: 15px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    list-style: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-left: 220px;
+}
+.navbar ul li .link{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+.navbar ul li .link:hover{
+    border-bottom-color:white ;
+}
+.btn,.addEx{
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-top: 5px;
+    width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.expe{
+    width: 320px;
+    border-top: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+.i{
+    margin-bottom: 2px;
+}
+.selection{
+    height: 50px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
