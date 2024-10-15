@@ -11,7 +11,7 @@ const Navbar=()=>{
 
    return(
     <div className="navbar">
-        <span>CV</span>
+        <span><Link className="link" to={"Home"}>CV</Link></span>
         <ul>
            {
             info.map((ele)=>( 
